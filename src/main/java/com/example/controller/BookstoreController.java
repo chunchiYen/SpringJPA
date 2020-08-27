@@ -22,7 +22,7 @@ public class BookstoreController {
 	@RequestMapping(value ={"/",""})
 	@ResponseBody
 	public String toBookHome(){
-		return "books Home";
+		return "books Home .";
 	}
 	
 	
