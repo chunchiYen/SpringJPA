@@ -14,4 +14,4 @@ BookstoreController	http://localhost:8081/books
 	/db3
 	
 	/bookadd		BookAdd.html
-	/booksave		BookAdd.html
+	/booksave	=>	BookAdd.html
