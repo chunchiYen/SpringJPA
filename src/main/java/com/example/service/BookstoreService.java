@@ -1,6 +1,9 @@
 package com.example.service;
 
 import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -14,10 +17,12 @@ import org.springframework.data.domain.Sort;
 
 @Service
 public class BookstoreService {
+	private static final Logger logger = LoggerFactory.getLogger(BookstoreService.class);
+			
 	@Autowired
 	SpringUtil sprintUtil;
 	
-	@Autowired//(required=false)
+	@Autowired
 	IBookstoreDao bookstoreDaoImpl;
 
 	@Autowired
@@ -37,8 +42,6 @@ public class BookstoreService {
 	
 	public String showmethemoney() {
 		return bookstoreDaoImpl.toShowInfo();
-		//return bookstoreJpa.showmethmoney();
-			
 	}
 	public int del(String id) {
 		boolean result = false ;
@@ -76,15 +79,16 @@ public class BookstoreService {
 */
 		if(MyStringUtils.isEmptyOrNull(bs.getBid()))
 			return null;
-		if(bs.getBid().isEmpty()){
-			System.out.println("IS EMPTY");
+		if(bs.getBid().isEmpty()){		
 			return null;
 		}
 		boolean existFlag = false;
 		existFlag = bookstoreJpa.existsById(bs.getBid());
 		if(!existFlag) {
+			logger.info("Bookstore Insert Success bid :{}   , ",bs.getBid());
 			return bookstoreJpa.save(bs);
 		}else {
+			logger.error("Bookstore Insert Fail ,  bid :{} exist",bs.getBid());
 			return null;
 		}
 		
@@ -99,7 +103,6 @@ public class BookstoreService {
 	
 	public List<Bookstore> getLikeBookname(String bookname){
 		return bookstoreDaoImpl.findByBooknameContaining(bookname);
-		//return bookstoreDaoImpl.findByAuthorContaining(bookname);
 	}
 	public Bookstore getMyBook(String bid) {
 		return bookstoreDaoImpl.getMyBook(bid);
@@ -165,8 +168,6 @@ public class BookstoreService {
 				columns = columns + " ,Version";
 			}
 		}
-		
-		
 		
 		sql =String.format("Insert into Bookstore(%1$s)values(%2$s)", columns , conditions.toString());
 		

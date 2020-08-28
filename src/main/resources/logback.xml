@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- configuration file for LogBack (slf4J implementation)
+See here for more details: http://gordondickens.com/wordpress/2013/03/27/sawing-through-the-java-loggers/ -->
+
+<configuration scan="true" scanPeriod="30 seconds">
+	
+    <!-- To enable JMX Management -->
+    <jmxConfigurator/>
+  
+    <property name="LOGGER_ROOT" value="./logs" />  
+    <property name="logger.level" value="INFO" />
+	<property name="FILE_NAME_PATTERN" value="_%d{yyyy-MM-dd_HH}.log.gz" />	
+	<property name="ENCODER_PATTERN" value="%d{HH:mm:ss.SSS} %-5level %logger{0}[%M:%L] - [%thread]- traceId:[%X{traceId}] - %msg%n" />
+	<property name="LogerMsg" value="%d{HH:mm:ss.SSS} %-5level %logger{0} - %msg%n"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${ENCODER_PATTERN}</pattern>
+        </encoder>
+        
+    </appender>
+  
+	<appender name="FILE_ADMIN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">		
+		 	<FileNamePattern>${LOGGER_ROOT}/JPA${FILE_NAME_PATTERN}</FileNamePattern>  		 	
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+<!-- 
+		<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+			<maxFileSize>50</maxFileSize>		
+		</triggeringPolicy>
+ -->
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<charset>UTF-8</charset>
+			<Pattern>${ENCODER_PATTERN}</Pattern>
+		</encoder>
+			<Filter class="ch.qos.logback.classic.filter.LevelFilter">
+		  <level>INFO</level>
+		  <onMatch>ACCEPT</onMatch>
+		  <onMismatch>DENY</onMismatch>
+		  </Filter>
+	</appender>
+	
+
+    <timestamp key="bySecond" datePattern="yyyyMMdd'T'HH"/>
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+		<file>${LOGGER_ROOT}/ERR-${bySecond}.log</file>
+		<append>true</append>
+		<immediateFlush>true</immediateFlush>		
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<charset>UTF-8</charset>
+			<Pattern>${ENCODER_PATTERN}</Pattern>
+		</encoder>	
+		<Filter class="com.example.log.filter.ErrorLogFilter"/>
+		 
+	
+	</appender>
+	
+	<root level="${logger.level}">
+	    <appender-ref ref="CONSOLE"/>
+		<appender-ref ref="FILE"/>
+		<appender-ref ref="FILE_ADMIN"/>
+
+    </root>
+</configuration>
