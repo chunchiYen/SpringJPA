@@ -1,0 +1,20 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<div th:if="${bookstore}!=null">
+			<p th:text="${bookstore.bid}"></p>
+			<p th:text="${bookstore.Bookname}"></p>
+			<p th:text="${bookstore.Author}"></p>
+			<p th:text="${bookstore.Publisher}"></p>
+			<p th:text="${bookstore.Price}"></p>
+			<p th:text="${bookstore.Version}"></p>
+	
+		</div>
+	</div>
+</body>
+</html>

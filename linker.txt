@@ -1,0 +1,17 @@
+BookstoreController	http://localhost:8081/books
+	/all
+	/count
+	/money
+	/save
+	/del?bid=1012345091&checkcode=1234
+	/getall
+	/all
+	/getstring
+	/findbook?bookname=小學
+	/getmybook?bid=1012345009
+	/db
+	/db2
+	/db3
+	
+	/bookadd		BookAdd.html
+	/booksave		BookAdd.html

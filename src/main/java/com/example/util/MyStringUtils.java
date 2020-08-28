@@ -15,7 +15,9 @@ public class MyStringUtils {
 	}
 	public static boolean  isEmptyOrNull(String string){
 		if(string == null) 
-			return true;		
+			return true;	
+		if(string.isEmpty())
+			return true;
 		if(string.length() ==0)
 			return true;
 		return false;		

@@ -1,14 +1,11 @@
-
+-- safe update mode
+-- SET SQL_SAFE_UPDATES=0; --關閉
+-- SET SQL_SAFE_UPDATES=1; --開啟
+-- TRUNCATE  table Bookstore;
+-- ALTER TABLE Bookstore modify  COLUMN Price  DECIMAL(10,2)  default 0.00 not null ;
 -- My SQL 更新、刪除時若無where 或 limit 或沒有包含key Column 的條件，會無法運行
 -- 更新或刪除前 將 SQL_SAFE_UPDATES 關閉，即可執行更新作業。
 -- 0 閉閉 1: 打開 
--- safe update mode
--- SET SQL_SAFE_UPDATES=0; --關閉
--- SET SQL_SAFE_UPDATES=1; --打開
-
--- 變更欄位型態
--- ALTER TABLE Bookstore modify  COLUMN Price  DECIMAL(10,2)  default 0.00 not null ;
-
 
 DROP TABLE IF EXISTS UserInfo;
 Create Table UserInfo(
@@ -192,12 +189,18 @@ DROP TABLE IF EXISTS SEQ;
 	SeqYear varchar(6) default '',
 	PRIMARY KEY (Item_Seq)
 ) ;
--- Item_Seq存的是將被使用的seq，當下取得的seq為當筆資料的seq
--- 單筆資料寫完資料後將seq+1後回寫，整批資料寫完後將seq+1後回寫
+
 Insert Into SEQ values( 'Books' , default , default);
 Insert Into SEQ values( 'Author' , default , default);
-Insert Into SEQ values( 'User' , default , default);
-Insert Into SEQ values( 'User' , default , default);
+
+DROP TABLE IF EXISTS obapp.ItemKind;
+Create Table ItemKind(
+	id int auto_increment not null,
+    ItemName varchar(20),
+    ItemValue varchar(20)
+);
+Insert into ItemKind(id , ItemName , ItemValue)Values(default , 'BookIndex' , 'B');
+Insert into ItemKind(id , ItemName , ItemValue)Values(default , 'AuthorIndex' , 'A');
 
 -- CreateTable  TestTable in order to test JPA Create Entity datatype
 DROP TABLE IF EXISTS obapp.TestTable;

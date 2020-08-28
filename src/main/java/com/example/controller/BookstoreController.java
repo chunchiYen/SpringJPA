@@ -6,9 +6,13 @@ import java.util.ArrayList;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.example.constant.CheckCodeConst;
 import com.example.entity.Bookstore;
 import com.example.service.BookstoreService;
 
@@ -24,7 +28,32 @@ public class BookstoreController {
 	public String toBookHome(){
 		return "books Home .";
 	}
+	@RequestMapping(value ={"/bookadd"})
+	public String toBookAdd(){
+		return "BookAdd";
+	}
 	
+	
+	
+	//consumes： 指定處理request的Content-Type, 例如 application/json; , text/html;
+	//produces: 指定返回的內容類型，僅當requet請求header的accept類型中包含該指定類型才返回
+	//headers： 指定request中必須包含某些指定的header值，才能讓方法處理請求
+	//@RequestMapping(value ={"/booksave"} , produces="application/json; charset=utf-8")
+	@RequestMapping(value ={"/booksave"} )
+	//@ResponseBody
+	public String toBookSave(@ModelAttribute(value = "BooksForm") Bookstore bookstore ,@RequestParam String checkCode , Model model){
+
+		String reusltStr = "bid : " + bookstore.getBid() +" 新增失敗";		
+		Bookstore resultBs =  bookstoreService.save2(bookstore);
+		
+		if(resultBs != null)
+			reusltStr = "bid ： " +bookstore.getBid()  +" 新增成功";
+		model.addAttribute("bookstore", resultBs);
+		model.addAttribute("result", reusltStr);
+		return "BookAdd";
+
+		
+	}
 	
 	@RequestMapping(value ={"/all"})
 	@ResponseBody
@@ -66,6 +95,24 @@ public class BookstoreController {
 		return bs2;		
 	}
 
+	@RequestMapping(value ={"/del"})
+	@ResponseBody
+	public String toDel(@RequestParam(required=false) String bid, @RequestParam(required=false) String checkCode) {
+		if(bid==null )
+			return "請輸入bid";
+		if(bid.isEmpty())
+			return "bid錯誤";		
+		if(checkCode==null)
+			return "請輸入檢查碼";
+		if(!CheckCodeConst.DEL_CHECK_CODE.equals(checkCode))	
+			return "檢查碼錯誤";
+		
+		int result = bookstoreService.del(bid);
+		if(result ==0 )
+			return "無此資料";
+		else
+			return "刪除成功";
+	}
 	@RequestMapping(value ={"/getall"})
 	@ResponseBody
 

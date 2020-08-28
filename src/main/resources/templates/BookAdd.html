@@ -1,0 +1,36 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<style>
+.TitleDoc{
+	width:100px;
+	font-size:14p;
+	margin-left:5px;
+	
+}
+</style>
+
+<meta http-equiv="Content-Type" content="application/json; charset=UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+	  <form th:action="@{/books/booksave}" method="post" name="dataFrom" >
+			<div class="TitleDoc"><label>書籍編號：</label></div><div><input type="text" name="bid" maxlength="10"/></div>
+			<div class="TitleDoc"><label>書籍名稱：</label></div><div><input type="text" name="Bookname" maxlength="50"></div>
+			<div class="TitleDoc"><label>作者：</label></div><div><input type="text" name="Author" maxlength="30"/></div>
+			<div class="TitleDoc"><label>出版社：</label></div><div><input type="text" name="Publisher" maxlength="50"/></div>
+			<div class="TitleDoc"><label>單價：</label></div><div><input type="text" name="Price" maxlength="10" value="0.0"/></div>
+			<div class="TitleDoc"><label>版本：</label></div><div><input type="text" name="Version" maxlength="10"/></div>
+			<div><input type="hidden" name="checkCode" value="1234"/></div>
+			<div><input type="submit" id="sub" value="確認"><input type="reset" id="rest" value="重新輸入"></div>
+		</form>	
+	</div>
+	<div th:if="${result} !=null">
+		<p th:text="${result}"></p>
+	</div>
+</body>
+</html>

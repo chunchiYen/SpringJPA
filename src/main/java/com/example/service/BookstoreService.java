@@ -40,8 +40,16 @@ public class BookstoreService {
 		//return bookstoreJpa.showmethmoney();
 			
 	}
-	
-
+	public int del(String id) {
+		boolean result = false ;
+		result = bookstoreJpa.existsById(id);
+		if(result) {
+			bookstoreJpa.deleteById(id);
+			return 1;
+		}else {
+			return 0;
+		}
+	}
 	public Bookstore save(Bookstore bs) {
 		
 		return bookstoreJpa.save(bs);
@@ -66,8 +74,12 @@ public class BookstoreService {
 			return bookstoreJpa.save(bs);	
 		}
 */
-		if(bs.getBid() == null )
+		if(MyStringUtils.isEmptyOrNull(bs.getBid()))
 			return null;
+		if(bs.getBid().isEmpty()){
+			System.out.println("IS EMPTY");
+			return null;
+		}
 		boolean existFlag = false;
 		existFlag = bookstoreJpa.existsById(bs.getBid());
 		if(!existFlag) {
