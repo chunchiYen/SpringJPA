@@ -1,28 +1,32 @@
 package com.example.service;
 
+import java.io.Serializable;
 import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import com.example.entity.Bookstore;
 import com.example.repository.BookstoreRepository;
 import com.example.repository.IBookstoreDao;
 import com.example.repository.ISpring;
+import com.example.util.Counter;
 import com.example.util.MyStringUtils;
 import com.example.util.SpringUtil;
 import org.springframework.data.domain.Sort;
 
 @Service
-public class BookstoreService {
+public class BookstoreService  {
 	private static final Logger logger = LoggerFactory.getLogger(BookstoreService.class);
-			
+		
 	@Autowired
 	SpringUtil sprintUtil;
 	
 	@Autowired
+	//@Qualifier(value="daoImpl")
 	IBookstoreDao bookstoreDaoImpl;
 
 	@Autowired
@@ -41,13 +45,15 @@ public class BookstoreService {
 
 	
 	public String showmethemoney() {
-		return bookstoreDaoImpl.toShowInfo();
+		//return bookstoreDaoImpl.toShowInfo();
+		return "";
 	}
-	public int del(String id) {
+	public int del(String bid) {
 		boolean result = false ;
-		result = bookstoreJpa.existsById(id);
+		result = bookstoreJpa.existsById(bid);
+		System.out.println(result);
 		if(result) {
-			bookstoreJpa.deleteById(id);
+			bookstoreJpa.deleteById(bid);
 			return 1;
 		}else {
 			return 0;
@@ -172,5 +178,35 @@ public class BookstoreService {
 		sql =String.format("Insert into Bookstore(%1$s)values(%2$s)", columns , conditions.toString());
 		
 		return sql;
+	}
+	
+	public int update(Bookstore bookstore) {
+		String id = bookstore.getBid();
+		int result = 0;
+		
+		Bookstore resultBs = springImpl.find(id);
+		if(resultBs != null) {
+			System.out.println("1012345098 存在");
+		
+			System.out.println(resultBs.getBookname());
+			int s = springImpl.update(bookstore);
+			if(s>0) {
+				result = 1;
+			}else {
+				result = 0;
+			}
+			
+		}else {
+			System.out.println("1012345098 不存在");
+			result = 0;
+		}
+		return result;
+		
+		
+		
+	}
+	public List<Bookstore>	getBookstoreAll(){
+
+		return springImpl.getBookstoreAll();
 	}
 }

@@ -1,0 +1,766 @@
+18:01:02.875 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:01:02.880 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:01:06.748 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 12196 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:01:06.752 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:01:07.138 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:01:07.197 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 52ms. Found 2 JPA repository interfaces.
+18:01:07.499 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:01:07.670 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:01:07.677 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:01:07.677 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:01:07.678 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:01:07.758 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:01:07.758 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 967 ms
+18:01:07.909 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:01:08.058 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:01:08.230 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:01:08.725 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:01:09.145 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:01:09.579 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:01:09.596 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:01:09.597 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.065 seconds (JVM running for 3.814)
+18:01:24.904 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:01:24.904 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:01:24.909 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 5 ms
+18:03:04.011 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:03:04.016 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:03:07.846 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 14680 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:03:07.849 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:03:08.235 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:03:08.292 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 50ms. Found 2 JPA repository interfaces.
+18:03:08.633 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:03:08.820 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:03:08.829 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:03:08.830 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:03:08.830 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:03:08.918 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:03:08.918 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1035 ms
+18:03:09.068 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:03:09.221 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:03:09.394 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:03:09.912 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:03:10.378 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:03:10.840 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:03:10.862 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:03:10.864 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.217 seconds (JVM running for 3.951)
+18:03:26.764 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:03:26.764 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:03:26.769 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 5 ms
+18:07:33.484 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(14)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:07:33.487 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(14)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:07:37.373 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 16328 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:07:37.377 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:07:37.779 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:07:37.836 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+18:07:38.137 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:07:38.309 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:07:38.316 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:07:38.317 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:07:38.317 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:07:38.401 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:07:38.401 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 980 ms
+18:07:38.475 INFO  StandardService[log:173] - [main]- traceId:[] - Stopping service [Tomcat]
+18:07:38.484 INFO  ConditionEvaluationReportLoggingListener[logMessage:136] - [main]- traceId:[] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:14:01.321 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 7500 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:14:01.324 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:14:01.752 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:14:01.814 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 54ms. Found 2 JPA repository interfaces.
+18:14:02.157 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:14:02.336 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:14:02.342 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:14:02.343 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:14:02.343 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:14:02.425 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:14:02.426 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1066 ms
+18:14:02.572 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:14:02.721 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:14:02.890 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:14:03.398 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:14:03.806 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:14:04.264 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:14:04.282 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:14:04.283 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.165 seconds (JVM running for 3.905)
+18:14:09.258 INFO  [/][log:173] - [http-nio-8081-exec-2]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:14:09.258 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-2]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:14:09.263 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-2]- traceId:[] - Completed initialization in 4 ms
+18:16:59.301 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(12)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:16:59.303 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(12)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:17:03.187 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 12772 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:17:03.190 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:17:03.580 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:17:03.639 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 53ms. Found 2 JPA repository interfaces.
+18:17:03.943 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:17:04.146 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:17:04.154 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:17:04.155 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:17:04.155 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:17:04.246 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:17:04.247 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1022 ms
+18:17:04.400 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:17:04.548 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:17:04.728 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:17:05.228 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:17:05.652 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:17:06.083 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:17:06.100 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:17:06.102 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.12 seconds (JVM running for 3.879)
+18:17:11.114 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:17:11.114 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:17:11.119 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 5 ms
+18:18:33.896 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(12)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:18:33.899 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(12)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:18:37.733 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 10940 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:18:37.736 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:18:38.117 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:18:38.174 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+18:18:38.475 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:18:38.648 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:18:38.655 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:18:38.655 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:18:38.656 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:18:38.737 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:18:38.737 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 967 ms
+18:18:38.883 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:18:39.023 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:18:39.194 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:18:39.683 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:18:40.110 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:18:40.546 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:18:40.561 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:18:40.563 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.029 seconds (JVM running for 3.762)
+18:18:44.795 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:18:44.795 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:18:44.800 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 5 ms
+18:21:02.621 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(12)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:21:02.624 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(12)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:21:06.514 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 17388 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:21:06.518 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:21:06.925 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:21:06.985 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 52ms. Found 2 JPA repository interfaces.
+18:21:07.303 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:21:07.477 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:21:07.484 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:21:07.485 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:21:07.485 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:21:07.567 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:21:07.567 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1008 ms
+18:21:07.715 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:21:07.862 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:21:08.058 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:21:08.601 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:21:09.048 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:21:09.477 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:21:09.493 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:21:09.495 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.223 seconds (JVM running for 3.978)
+18:21:31.636 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:21:31.637 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:21:31.645 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 8 ms
+18:22:16.545 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:22:16.550 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:22:20.499 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 14412 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:22:20.504 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:22:20.904 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:22:20.961 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+18:22:21.271 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:22:21.450 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:22:21.457 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:22:21.458 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:22:21.458 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:22:21.538 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:22:21.538 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 999 ms
+18:22:21.685 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:22:21.829 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:22:22.004 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:22:22.505 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:22:22.935 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:22:23.362 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:22:23.379 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:22:23.381 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.094 seconds (JVM running for 3.896)
+18:22:43.761 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:22:43.761 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:22:43.768 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 6 ms
+18:23:00.533 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:23:00.536 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:23:04.584 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 16792 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:23:04.588 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:23:05.039 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:23:05.106 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 58ms. Found 2 JPA repository interfaces.
+18:23:05.457 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:23:05.649 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:23:05.658 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:23:05.659 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:23:05.659 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:23:05.743 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:23:05.744 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1118 ms
+18:23:05.911 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:23:06.066 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:23:06.288 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:23:06.884 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:23:07.388 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:23:07.838 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:23:07.856 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:23:07.858 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.519 seconds (JVM running for 4.399)
+18:23:20.663 INFO  [/][log:173] - [http-nio-8081-exec-2]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:23:20.664 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-2]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:23:20.672 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-2]- traceId:[] - Completed initialization in 8 ms
+18:25:53.401 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(13)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:25:53.404 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(13)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:25:57.294 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 1188 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:25:57.296 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:25:57.700 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:25:57.760 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 52ms. Found 2 JPA repository interfaces.
+18:25:58.067 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:25:58.242 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:25:58.249 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:25:58.250 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:25:58.250 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:25:58.332 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:25:58.332 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 997 ms
+18:25:58.477 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:25:58.619 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:25:58.794 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:25:59.283 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:25:59.707 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:26:00.131 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:26:00.159 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:26:00.161 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.078 seconds (JVM running for 3.844)
+18:26:05.794 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:26:05.794 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:26:05.799 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 5 ms
+18:26:53.477 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:26:53.480 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:26:57.310 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 15648 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:26:57.313 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:26:57.717 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:26:57.776 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 52ms. Found 2 JPA repository interfaces.
+18:26:58.076 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:26:58.246 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:26:58.252 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:26:58.253 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:26:58.253 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:26:58.333 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:26:58.333 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 981 ms
+18:26:58.477 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:26:58.619 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:26:58.791 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:26:59.273 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:26:59.704 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:27:00.142 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:27:00.160 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:27:00.161 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.06 seconds (JVM running for 3.799)
+18:27:02.230 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:27:02.230 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:27:02.237 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 6 ms
+18:27:19.861 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(8)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:27:19.866 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(8)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:27:23.740 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 7500 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:27:23.742 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:27:24.129 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:27:24.187 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 50ms. Found 2 JPA repository interfaces.
+18:27:24.525 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:27:24.695 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:27:24.702 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:27:24.703 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:27:24.703 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:27:24.784 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:27:24.784 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1006 ms
+18:27:24.934 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:27:25.075 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:27:25.251 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:27:25.733 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:27:26.163 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:27:26.617 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:27:26.634 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:27:26.636 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.1 seconds (JVM running for 3.857)
+18:27:28.436 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:27:28.437 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:27:28.441 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 4 ms
+18:29:07.320 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:29:07.323 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:29:11.180 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 2868 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:29:11.183 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:29:11.562 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:29:11.620 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+18:29:11.931 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:29:12.103 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:29:12.110 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:29:12.111 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:29:12.111 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:29:12.190 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:29:12.191 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 971 ms
+18:29:12.340 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:29:12.483 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:29:12.661 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:29:13.143 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:29:13.312 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:29:13.350 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:29:13.350 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:29:13.351 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:29:13.353 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:29:13.684 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:29:13.718 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:29:14.053 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:29:14.633 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:29:14.650 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:29:14.651 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.689 seconds (JVM running for 4.435)
+18:29:20.233 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:29:20.233 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:29:20.239 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 5 ms
+18:31:57.936 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(13)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:31:57.939 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(13)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:31:57.940 INFO  pooling[stop:418] - [RMI TCP Connection(13)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:32:01.899 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 1568 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:32:01.902 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:32:02.397 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:32:02.463 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 58ms. Found 2 JPA repository interfaces.
+18:32:02.790 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:32:02.964 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:32:02.972 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:32:02.973 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:32:02.973 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:32:03.055 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:32:03.056 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1115 ms
+18:32:03.205 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:32:03.352 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:32:03.537 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:32:04.035 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:32:04.208 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:32:04.245 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:32:04.246 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:32:04.246 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:32:04.248 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:32:04.595 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:32:04.631 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:32:04.979 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:32:05.558 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:32:05.574 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:32:05.576 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.912 seconds (JVM running for 4.708)
+18:32:19.711 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:32:19.712 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:32:19.716 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 4 ms
+18:32:19.746 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-1]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:32:19.758 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-1]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:32:19.758 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-1]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:32:19.758 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-1]- traceId:[] - HHH10001003: Autocommit mode: false
+18:32:19.759 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-1]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:32:19.772 INFO  Dialect[<init>:172] - [http-nio-8081-exec-1]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:32:19.809 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-1]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:32:53.735 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:32:53.739 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:32:53.741 INFO  pooling[stop:418] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:32:57.649 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 3364 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:32:57.652 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:32:58.070 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:32:58.133 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 54ms. Found 2 JPA repository interfaces.
+18:32:58.465 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:32:58.800 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:32:58.813 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:32:58.814 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:32:58.815 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:32:58.950 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:32:58.950 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1255 ms
+18:32:59.147 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:32:59.338 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:32:59.572 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:33:00.133 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:33:00.321 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:33:00.358 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:33:00.358 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:33:00.359 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:33:00.361 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:33:00.703 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:33:00.736 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:33:01.071 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:33:01.659 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:33:01.679 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:33:01.681 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 4.252 seconds (JVM running for 5.022)
+18:33:35.673 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:33:35.674 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:33:35.699 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 25 ms
+18:33:35.760 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-1]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:33:35.774 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-1]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:33:35.774 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-1]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:33:35.775 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-1]- traceId:[] - HHH10001003: Autocommit mode: false
+18:33:35.775 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-1]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:33:35.791 INFO  Dialect[<init>:172] - [http-nio-8081-exec-1]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:33:35.871 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-1]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:33:35.920 INFO  pooling[stop:418] - [http-nio-8081-exec-1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:34:08.314 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-3]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:34:08.327 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-3]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:34:08.327 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-3]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:34:08.327 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-3]- traceId:[] - HHH10001003: Autocommit mode: false
+18:34:08.328 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-3]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:34:08.342 INFO  Dialect[<init>:172] - [http-nio-8081-exec-3]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:34:08.410 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-3]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:34:08.414 INFO  pooling[stop:418] - [http-nio-8081-exec-3]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:36:02.498 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:36:02.501 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:36:02.502 INFO  pooling[stop:418] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:36:06.461 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 6488 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:36:06.463 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:36:06.857 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:36:06.913 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 50ms. Found 2 JPA repository interfaces.
+18:36:07.302 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:36:07.534 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:36:07.541 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:36:07.542 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:36:07.542 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:36:07.647 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:36:07.648 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1150 ms
+18:36:07.941 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:36:08.105 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:36:08.329 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:36:08.956 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:36:09.137 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:36:09.175 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:36:09.175 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:36:09.176 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:36:09.178 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:36:09.535 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:36:09.567 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:36:09.974 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:36:10.586 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:36:10.604 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:36:10.605 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 4.359 seconds (JVM running for 5.2)
+18:36:55.337 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:36:55.337 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:36:55.342 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 5 ms
+18:36:55.374 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-1]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:36:55.386 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-1]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:36:55.387 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-1]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:36:55.387 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-1]- traceId:[] - HHH10001003: Autocommit mode: false
+18:36:55.387 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-1]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:36:55.401 INFO  Dialect[<init>:172] - [http-nio-8081-exec-1]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:36:55.440 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-1]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:36:55.459 INFO  pooling[stop:418] - [http-nio-8081-exec-1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:38:34.660 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(10)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:38:34.663 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(10)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:38:34.664 INFO  pooling[stop:418] - [RMI TCP Connection(10)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:38:38.524 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 16508 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:38:38.526 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:38:38.919 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:38:38.983 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 57ms. Found 2 JPA repository interfaces.
+18:38:39.289 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:38:39.463 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:38:39.470 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:38:39.471 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:38:39.471 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:38:39.569 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:38:39.570 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1007 ms
+18:38:39.720 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:38:39.864 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:38:40.040 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:38:40.530 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:38:40.708 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:38:40.746 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:38:40.747 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:38:40.747 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:38:40.749 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:38:41.088 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:38:41.122 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:38:41.460 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:38:42.098 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:38:42.115 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:38:42.117 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.8 seconds (JVM running for 4.552)
+18:38:59.022 INFO  [/][log:173] - [http-nio-8081-exec-2]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:38:59.022 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-2]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:38:59.029 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-2]- traceId:[] - Completed initialization in 7 ms
+18:38:59.068 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-2]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:38:59.085 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-2]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:38:59.086 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-2]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:38:59.087 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-2]- traceId:[] - HHH10001003: Autocommit mode: false
+18:38:59.087 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-2]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:38:59.103 INFO  Dialect[<init>:172] - [http-nio-8081-exec-2]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:38:59.155 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-2]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:39:47.438 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:39:47.441 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:39:47.441 INFO  pooling[stop:418] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:39:51.380 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 9812 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:39:51.383 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:39:51.790 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:39:51.849 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+18:39:52.163 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:39:52.346 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:39:52.352 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:39:52.353 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:39:52.353 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:39:52.448 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:39:52.449 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1032 ms
+18:39:52.649 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:39:52.806 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:39:52.994 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:39:53.503 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:39:53.664 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:39:53.714 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:39:53.715 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:39:53.715 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:39:53.718 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:39:54.073 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:39:54.107 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:39:54.492 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:39:55.095 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:39:55.112 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:39:55.113 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.951 seconds (JVM running for 4.748)
+18:40:00.945 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:40:00.946 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:40:00.950 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 4 ms
+18:40:00.989 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-1]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:40:01.001 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-1]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:40:01.002 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-1]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:40:01.002 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-1]- traceId:[] - HHH10001003: Autocommit mode: false
+18:40:01.002 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-1]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:40:01.015 INFO  Dialect[<init>:172] - [http-nio-8081-exec-1]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:40:01.055 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-1]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:40:44.343 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:40:44.346 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:40:44.348 INFO  pooling[stop:418] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:40:48.225 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 16656 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:40:48.228 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:40:48.617 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:40:48.677 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 53ms. Found 2 JPA repository interfaces.
+18:40:48.983 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:40:49.153 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:40:49.161 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:40:49.162 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:40:49.162 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:40:49.240 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:40:49.240 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 974 ms
+18:40:49.388 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:40:49.531 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:40:49.700 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:40:50.194 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:40:50.373 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:40:50.414 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:40:50.415 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:40:50.415 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:40:50.417 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:40:50.766 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:40:50.804 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:40:51.168 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:40:51.796 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:40:51.813 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:40:51.814 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.797 seconds (JVM running for 4.554)
+18:40:52.846 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:40:52.846 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:40:52.851 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 4 ms
+18:40:52.892 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-1]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:40:52.903 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-1]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:40:52.904 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-1]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:40:52.904 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-1]- traceId:[] - HHH10001003: Autocommit mode: false
+18:40:52.904 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-1]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:40:52.917 INFO  Dialect[<init>:172] - [http-nio-8081-exec-1]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:40:52.957 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-1]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:41:29.115 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:41:29.118 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:41:29.119 INFO  pooling[stop:418] - [RMI TCP Connection(9)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:41:33.066 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 3264 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:41:33.069 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:41:33.482 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:41:33.540 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 52ms. Found 2 JPA repository interfaces.
+18:41:33.861 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:41:34.039 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:41:34.046 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:41:34.047 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:41:34.047 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:41:34.131 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:41:34.131 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1024 ms
+18:41:34.303 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:41:34.450 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:41:34.625 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:41:35.122 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:41:35.289 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:41:35.337 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:41:35.338 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:41:35.338 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:41:35.340 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:41:35.700 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:41:35.744 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:41:36.080 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:41:36.674 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:41:36.691 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:41:36.693 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.854 seconds (JVM running for 4.652)
+18:41:40.426 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:41:40.426 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:41:40.433 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 6 ms
+18:41:40.462 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-1]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:41:40.474 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-1]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:41:40.475 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-1]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:41:40.475 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-1]- traceId:[] - HHH10001003: Autocommit mode: false
+18:41:40.475 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-1]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:41:40.490 INFO  Dialect[<init>:172] - [http-nio-8081-exec-1]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:41:40.529 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-1]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:42:31.935 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(10)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:42:31.938 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(10)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:42:31.940 INFO  pooling[stop:418] - [RMI TCP Connection(10)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:42:35.817 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 732 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:42:35.819 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:42:36.206 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:42:36.264 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+18:42:36.569 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:42:36.757 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:42:36.764 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:42:36.764 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:42:36.764 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:42:36.846 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:42:36.846 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 992 ms
+18:42:36.993 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:42:37.137 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:42:37.313 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:42:37.798 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:42:37.973 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:42:38.010 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:42:38.011 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:42:38.011 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:42:38.013 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:42:38.352 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:42:38.386 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:42:38.719 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:42:39.299 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:42:39.315 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:42:39.316 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.711 seconds (JVM running for 4.453)
+18:42:41.897 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:42:41.898 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:42:41.902 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 4 ms
+18:42:41.934 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-1]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:42:41.946 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-1]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:42:41.946 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-1]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:42:41.946 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-1]- traceId:[] - HHH10001003: Autocommit mode: false
+18:42:41.946 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-1]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:42:41.960 INFO  Dialect[<init>:172] - [http-nio-8081-exec-1]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:42:41.997 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-1]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:42:42.039 INFO  pooling[stop:418] - [http-nio-8081-exec-1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:44:22.839 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:44:22.843 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:44:22.845 INFO  pooling[stop:418] - [RMI TCP Connection(11)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:44:26.738 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 15208 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:44:26.741 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:44:27.124 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:44:27.182 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+18:44:27.486 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:44:27.659 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:44:27.666 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:44:27.667 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:44:27.667 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:44:27.751 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:44:27.751 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 975 ms
+18:44:27.906 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:44:28.049 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:44:28.227 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:44:28.748 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:44:28.925 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:44:28.962 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:44:28.963 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:44:28.963 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:44:28.965 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:44:29.314 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:44:29.349 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:44:29.691 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:44:30.289 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:44:30.305 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:44:30.307 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.769 seconds (JVM running for 4.521)
+18:44:44.223 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(6)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:44:44.228 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(6)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:44:44.230 INFO  pooling[stop:418] - [RMI TCP Connection(6)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:44:48.111 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 10940 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:44:48.113 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:44:48.493 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:44:48.552 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 53ms. Found 2 JPA repository interfaces.
+18:44:48.880 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:44:49.050 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:44:49.057 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:44:49.057 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:44:49.058 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:44:49.138 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:44:49.138 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 989 ms
+18:44:49.284 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:44:49.425 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:44:49.601 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:44:50.089 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:44:50.259 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:44:50.296 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:44:50.297 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:44:50.297 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:44:50.299 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:44:50.638 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:44:50.673 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:44:51.005 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:44:51.583 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:44:51.601 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:44:51.602 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.694 seconds (JVM running for 4.447)
+18:44:57.783 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:44:57.784 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:44:57.791 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 5 ms
+18:45:18.410 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(10)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:45:18.413 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(10)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:45:18.415 INFO  pooling[stop:418] - [RMI TCP Connection(10)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:45:22.268 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 10776 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:45:22.271 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:45:22.657 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:45:22.715 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+18:45:23.025 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:45:23.199 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:45:23.205 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:45:23.206 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:45:23.206 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:45:23.289 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:45:23.289 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 985 ms
+18:45:23.442 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:45:23.597 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:45:23.776 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:45:24.264 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:45:24.433 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:45:24.470 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:45:24.470 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:45:24.470 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:45:24.473 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:45:24.834 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:45:24.876 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:45:25.221 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:45:25.812 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:45:25.829 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:45:25.831 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.768 seconds (JVM running for 4.514)
+18:45:31.554 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(8)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:45:31.556 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(8)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:45:31.557 INFO  pooling[stop:418] - [RMI TCP Connection(8)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:45:35.511 INFO  SpringJpaApplication[logStarting:55] - [main]- traceId:[] - Starting SpringJpaApplication on Chunchi with PID 9632 (C:\ecplise-2020-06\workspace\SpringJPA\target\classes started by Chunchi in C:\ecplise-2020-06\workspace\SpringJPA)
+18:45:35.513 INFO  SpringJpaApplication[logStartupProfileInfo:651] - [main]- traceId:[] - No active profile set, falling back to default profiles: default
+18:45:35.983 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - [main]- traceId:[] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:45:36.042 INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - [main]- traceId:[] - Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+18:45:36.351 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker[postProcessAfterInitialization:330] - [main]- traceId:[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:45:36.527 INFO  TomcatWebServer[initialize:92] - [main]- traceId:[] - Tomcat initialized with port(s): 8081 (http)
+18:45:36.533 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Initializing ProtocolHandler ["http-nio-8081"]
+18:45:36.534 INFO  StandardService[log:173] - [main]- traceId:[] - Starting service [Tomcat]
+18:45:36.534 INFO  StandardEngine[log:173] - [main]- traceId:[] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+18:45:36.617 INFO  [/][log:173] - [main]- traceId:[] - Initializing Spring embedded WebApplicationContext
+18:45:36.617 INFO  ContextLoader[prepareWebApplicationContext:284] - [main]- traceId:[] - Root WebApplicationContext: initialization completed in 1065 ms
+18:45:36.790 INFO  Version[logVersion:46] - [main]- traceId:[] - HHH000412: Hibernate Core {5.4.10.Final}
+18:45:37.005 INFO  Version[<clinit>:49] - [main]- traceId:[] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18:45:37.180 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:45:37.690 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:45:37.853 INFO  LogHelper[logPersistenceUnitInformation:31] - [main]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:45:37.892 INFO  pooling[buildCreator:115] - [main]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:45:37.893 INFO  pooling[buildCreator:124] - [main]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:45:37.893 INFO  pooling[buildCreator:129] - [main]- traceId:[] - HHH10001003: Autocommit mode: false
+18:45:37.897 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [main]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:45:38.238 INFO  Dialect[<init>:172] - [main]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:45:38.272 INFO  JtaPlatformInitiator[initiateService:52] - [main]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:45:38.627 INFO  ThreadPoolTaskExecutor[initialize:171] - [main]- traceId:[] - Initializing ExecutorService 'applicationTaskExecutor'
+18:45:39.231 INFO  Http11NioProtocol[log:173] - [main]- traceId:[] - Starting ProtocolHandler ["http-nio-8081"]
+18:45:39.249 INFO  TomcatWebServer[start:204] - [main]- traceId:[] - Tomcat started on port(s): 8081 (http) with context path ''
+18:45:39.251 INFO  SpringJpaApplication[logStarted:61] - [main]- traceId:[] - Started SpringJpaApplication in 3.94 seconds (JVM running for 4.703)
+18:45:42.418 INFO  [/][log:173] - [http-nio-8081-exec-1]- traceId:[] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:45:42.419 INFO  DispatcherServlet[initServletBean:525] - [http-nio-8081-exec-1]- traceId:[] - Initializing Servlet 'dispatcherServlet'
+18:45:42.424 INFO  DispatcherServlet[initServletBean:547] - [http-nio-8081-exec-1]- traceId:[] - Completed initialization in 5 ms
+18:46:24.735 INFO  LogHelper[logPersistenceUnitInformation:31] - [http-nio-8081-exec-3]- traceId:[] - HHH000204: Processing PersistenceUnitInfo [name: SpringJPA]
+18:46:24.748 INFO  pooling[buildCreator:115] - [http-nio-8081-exec-3]- traceId:[] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:46:24.749 INFO  pooling[buildCreator:124] - [http-nio-8081-exec-3]- traceId:[] - HHH10001001: Connection properties: {user=sa, password=****}
+18:46:24.749 INFO  pooling[buildCreator:129] - [http-nio-8081-exec-3]- traceId:[] - HHH10001003: Autocommit mode: false
+18:46:24.749 INFO  DriverManagerConnectionProviderImpl[<init>:249] - [http-nio-8081-exec-3]- traceId:[] - HHH000115: Hibernate connection pool size: 20 (min=1)
+18:46:24.764 INFO  Dialect[<init>:172] - [http-nio-8081-exec-3]- traceId:[] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:46:24.804 INFO  JtaPlatformInitiator[initiateService:52] - [http-nio-8081-exec-3]- traceId:[] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:46:24.840 INFO  pooling[stop:418] - [http-nio-8081-exec-3]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
+18:54:09.509 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(19)-127.0.0.1]- traceId:[] - Application shutdown requested.
+18:54:09.515 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(19)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+18:54:09.517 INFO  pooling[stop:418] - [RMI TCP Connection(19)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]

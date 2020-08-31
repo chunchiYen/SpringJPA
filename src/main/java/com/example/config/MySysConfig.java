@@ -1,26 +1,24 @@
-package com.exmaple.config;
+package com.example.config;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
-import javax.annotation.PostConstruct;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.PersistenceUnit;
 import javax.sql.DataSource;
-
 import org.apache.commons.dbcp2.BasicDataSource;
-import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
-import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.mysql.cj.jdbc.Driver;
 @Configuration
 @Component
 public class MySysConfig {
@@ -54,15 +52,16 @@ public class MySysConfig {
 
 	 }
 	 
-	//@Bean(name = "SessionFactory")
-	
+	@Bean(name = "SessionFactory")	
+	 @Primary
     public SessionFactory getSessionFactory( DataSource dataSource){
 		LocalSessionFactoryBean sessionBean = new LocalSessionFactoryBean();	
 		sessionBean.setDataSource(dataSource);
-	//	sessionBean.setPackagesToScan("com.example");
-	//  Properties props = new Properties();
-	//  props.setProperty("dialect", "org.hibernate.dialect.MySQLDialect");
-	//  sessionBean.setHibernateProperties(props);
+		sessionBean.setPackagesToScan("com.example");
+		
+	  Properties props = new Properties();
+	  props.setProperty("dialect", "org.hibernate.dialect.MySQLDialect");
+	 sessionBean.setHibernateProperties(props);
 		 try {
 				sessionBean.afterPropertiesSet();
 			} catch (IOException e) {
@@ -71,7 +70,16 @@ public class MySysConfig {
 			}
 	    
 		return sessionBean.getObject() ; 
-		
-
     }
+
+	@Bean (name="entityManagerFactory")
+	public EntityManagerFactory getEntityManagerFactory(SessionFactory sf) {
+		Map<String, String> properties = new HashMap<String, String>();
+		properties.put("javax.persistence.jdbc.user", "sa");
+		properties.put("javax.persistence.jdbc.password", "sa1217");
+		EntityManagerFactory  emf  = Persistence.createEntityManagerFactory("SpringJPA",properties);
+		
+		
+		return emf;
+	}
 }

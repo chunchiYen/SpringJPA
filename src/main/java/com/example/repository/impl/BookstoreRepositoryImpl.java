@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 import com.example.entity.Bookstore;
@@ -22,6 +24,8 @@ public abstract   class BookstoreRepositoryImpl  implements BookstoreRepository{
 	public String showmethemoney2() {
 		return "show me the money";
 	}
+	
+
 /*	
 	public Bookstore findByIndex(String bid) {		
 

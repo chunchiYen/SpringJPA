@@ -12,6 +12,8 @@ import java.math.BigDecimal;
 @Entity
 @Table(name="bookstore")
 @NamedQuery(name="Bookstore.findAll", query="SELECT b FROM Bookstore b")
+@NamedQuery(name="Bookstore.getone" , query="SELECT b FROM Bookstore b where b.bid=:bid")
+
 public class Bookstore implements Serializable {
 	private static final long serialVersionUID = 1L;
 

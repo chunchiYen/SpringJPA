@@ -51,8 +51,6 @@ public class BookstoreController {
 		model.addAttribute("bookstore", resultBs);
 		model.addAttribute("result", reusltStr);
 		return "BookAdd";
-
-		
 	}
 	
 	@RequestMapping(value ={"/all"})
@@ -154,6 +152,26 @@ public class BookstoreController {
 	@ResponseBody
 	public String getDb3() {	
 		return  bookstoreService.getDb3();
+	}
+	@RequestMapping(value ={"/update"})
+	@ResponseBody
+	public int toUpdate() {	
+		Bookstore bookstore = new Bookstore();
+		bookstore.setBid("1012345092");
+		bookstore.setBookname("烤地瓜王國");
+		bookstore.setAuthor("路邊攤");
+		bookstore.setPublisher("社會天下");
+		bookstore.setPrice(new BigDecimal(599));
+		bookstore.setVersion("0.9");
+		
+		return  bookstoreService.update(bookstore);
+		 
+	}
+	
+	@RequestMapping(value ={"/bookstoresall"})
+	@ResponseBody
+	public List<Bookstore> getBookstoreAll() {	
+		return  bookstoreService.getBookstoreAll();
 	}
 	
 }

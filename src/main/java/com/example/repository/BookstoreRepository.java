@@ -15,6 +15,11 @@ public interface BookstoreRepository  extends JpaRepository<Bookstore, String> {
 
 	List<Bookstore> findAll();
 	List<Bookstore> findAll(Sort sort);
+
+	//void deleteById(String bid) ;
+
+	
+	@SuppressWarnings("unchecked")
 	Bookstore save(Bookstore bs);
 		
 	@Query(value = "select b.* from bookstore b where b.bid =:bid", nativeQuery = true)

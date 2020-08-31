@@ -1,0 +1,3 @@
+11:03:37.097 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[shutdown:159] - [RMI TCP Connection(16)-127.0.0.1]- traceId:[] - Application shutdown requested.
+11:03:37.101 INFO  ThreadPoolTaskExecutor[shutdown:208] - [RMI TCP Connection(16)-127.0.0.1]- traceId:[] - Shutting down ExecutorService 'applicationTaskExecutor'
+11:03:37.106 INFO  pooling[stop:418] - [RMI TCP Connection(16)-127.0.0.1]- traceId:[] - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/OBAPP?serverTimezone=UTC]
