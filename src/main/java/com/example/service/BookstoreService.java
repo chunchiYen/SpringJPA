@@ -59,14 +59,27 @@ public class BookstoreService  {
 			return 0;
 		}
 	}
+
+	public int del2(String bid) {
+		boolean exists = false ;
+		int result = 0;
+		exists = bookstoreJpa.existsById(bid);
+		
+		if(exists) {	
+			String sql = String.format("delete from bookstore where bid=%s", bid);
+			result = springImpl.del(sql);
+			return result;
+		}else {
+			return result;
+		}
+	}
 	public Bookstore save(Bookstore bs) {
 		
 		return bookstoreJpa.save(bs);
 	}
 	
 	public List<Bookstore> getAll2(){		
-		return bookstoreDaoImpl.findAll();
-		//return bookstoreDaoImpl.searchMyAll();
+		return bookstoreDaoImpl.findAll();	
 	}
 
 	public Bookstore save2(Bookstore bs) {		
@@ -122,11 +135,11 @@ public class BookstoreService  {
 		
 		return String.format("MySQL Verion : %1$s", springImpl.getDb2() );
 	}
-	public String getDb3() {
-		
-		return String.format("MySQL Verion : %1$s", springImpl.getDb3() );
-	}
 
+	public Bookstore getOne(String bid) {
+		System.out.println("bookstore Service - > getOne");
+		return bookstoreJpa.getOne(bid);
+	}
 	public String getSql( Bookstore bookstore){
 
 		StringBuilder conditions = new StringBuilder();	
@@ -208,5 +221,9 @@ public class BookstoreService  {
 	public List<Bookstore>	getBookstoreAll(){
 
 		return springImpl.getBookstoreAll();
+	}
+	
+	public Bookstore sessionFind(String bid) {
+		return springImpl.useSessionFind(bid);
 	}
 }

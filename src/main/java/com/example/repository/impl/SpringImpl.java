@@ -1,49 +1,37 @@
 package com.example.repository.impl;
 
-import java.io.IOException;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-import javax.persistence.FlushModeType;
-import javax.persistence.LockModeType;
 import javax.persistence.Persistence;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import javax.sql.DataSource;
-
-
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.data.repository.query.Param;
-import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
 import com.example.datasource.MyDataSource;
 import com.example.entity.Bookstore;
-import com.example.repository.BookstoreRepository;
 import com.example.repository.ISpring;
 import com.example.util.Counter;
-import com.example.config.MySysConfig;
 
 @Service
 public class SpringImpl implements ISpring ,Serializable{
 	static final long serialVersionUID = 1L;
 	@Autowired
 	MyDataSource dataSource;
-	@Autowired
-	SessionFactory factory;
-	
+
 	@PersistenceContext
 	EntityManager em ;
 	
+	@Autowired
+	EntityManagerFactory factory;
+	@Autowired
+	SessionFactory sessionFactory;
 	public String getString() {
 		System.out.println("SpringImpl");
 		return "SpringImpl";
@@ -55,17 +43,26 @@ public class SpringImpl implements ISpring ,Serializable{
 		Map<String, String> properties = new HashMap<String, String>();
 		properties.put("javax.persistence.jdbc.user", "sa");
 		properties.put("javax.persistence.jdbc.password", "sa1217");
+		//EntityManagerFactory  emf  = Persistence.createEntityManagerFactory("SpringJPA2",properties);
+		
 		//properties 在persistence.xml中已設定 ，所以可以不用加入
-		EntityManagerFactory  emf  = Persistence.createEntityManagerFactory("SpringJPA",properties);
+		EntityManagerFactory  emf  = Persistence.createEntityManagerFactory("SpringJPA");		
 		EntityManager em2 = emf.createEntityManager();
 	
 		 em2.getTransaction().begin();
-		Query query = em2.createQuery("delete From Bookstore where bid=:bid");
-		query.setParameter("bid", "1012345096");
-		query.executeUpdate();
-		em2.getTransaction().commit();
+		 Bookstore bs = em2.find(Bookstore.class, "1012345092");
+		 if(bs == null )
+			 System.out.println("book is Null");
+		 else
+			 System.out.println(bs.getBid());
+		 
+		 Query query = em2.createNativeQuery("delete from Bookstore where bid=:bid");
+		 query.setParameter("bid", "1012345092");
+		 query.executeUpdate(); 
 	
-		//String result =(String) query.getSingleResult();	
+		 em2.getTransaction().commit();
+		 em2.close();
+	//	String result =(String) query.getSingleResult();	
 		emf.close();
 		return "VV";
 	
@@ -73,8 +70,7 @@ public class SpringImpl implements ISpring ,Serializable{
 	
 	
 	// 這裡的EntityManager為共用，Not allowed to create transaction on shared EntityManager
-	public String getDb3() {
-		String sql = "select version()";
+	public String getDb2() {
 		String sql2 ="delete From Bookstore where bid=:bid";
 		em.getTransaction().begin();
 		Query query = em.createQuery(sql2);			
@@ -84,48 +80,22 @@ public class SpringImpl implements ISpring ,Serializable{
 		//String result =(String) query.getSingleResult();	
 		return "VVV";
 	}
-	
-	public String getDb2() {
-	
 
-		MySysConfig config = new MySysConfig();
-		
-		Session session = config.getSessionFactory(dataSource).openSession();
-		
-		EntityManager em = session.getEntityManagerFactory().createEntityManager();
-		em.getTransaction().begin();
-		Query query = em.createNativeQuery("delete from bookstore where bid='1012345092'");
-		int exeResult = query.executeUpdate();
-		em.getTransaction().commit();
-		em.close();		
-		session.close();
-		
-		/*	
-		EntityManager em2  =factory.createEntityManager();
-		em2.getTransaction().begin();
-		Query query = em2.createNativeQuery("delete from bookstore where bid='1012345092'");
-		int exeResult = query.executeUpdate();
-		em2.getTransaction().commit();
-		em2.close();
-		*/
-		
-		return String.valueOf(exeResult);
-	
-	}
 
 	/**
 	 * Entity.merage：有則更新，無則新增
 	 * call update前先判斷該資料存在才可呼叫update
 	 * EntityManager 使用完畢需close，否則後序的update會塞住
 	 */
-	public int update(Bookstore bookstore) {//MySysConfig config = new MySysConfig();
+	// 從EntityManagerFactory Bean取的EntityManagerFactory
+	public int update(Bookstore bookstore) {
 		int executeResult =0;
 		EntityManager em = factory.createEntityManager();
 		em.getTransaction().begin();
 		Counter cnt = new Counter();
 		bookstore.setVersion(cnt.toString());
 
-		// 使用merage，有則更新，無則新增
+		// 使用merage 更資料，有則更新，無則新增
 		// 在呼叫update前，先
 		Bookstore resultBs = em.merge(bookstore);
 		
@@ -185,4 +155,62 @@ public class SpringImpl implements ISpring ,Serializable{
 		List<Bookstore> resultLists =(List<Bookstore>) query.getResultList();
 		return resultLists;
 	}
+	
+	public int del(String sql) {
+		EntityManager em2 = factory.createEntityManager();
+		int result = toUpdate(em2 , sql);
+		return result;
+	}
+	public int del2(String sql) {
+		EntityManager em2 = factory.createEntityManager();
+		 em2.getTransaction().begin();
+		 Bookstore bs = em2.find(Bookstore.class, "1012345092");
+		 if(bs == null )
+			 System.out.println("book is Null");
+		 else
+			 System.out.println(bs.getBid());
+		 
+		 Query query = em2.createNativeQuery("delete from Bookstore where bid='1012345092'");
+		  query.executeUpdate(); 
+		
+		
+		 //String sql = "delete from obapp.bookstore where bid='1012345092'";
+		//Query query = em2.createNativeQuery(sql);
+		//query.setParameter("bid", "1012345096");
+		
+		//query.executeUpdate();
+	
+		 em2.getTransaction().commit();
+		 em2.close();
+		 
+		
+		int result = toUpdate(em2 , sql);
+		return result;
+	}
+	public int toUpdate(EntityManager em2 , String sql) {		
+		em2.getTransaction().begin();
+		Query query = em2.createNativeQuery(sql);
+		int result = query.executeUpdate(); 
+		em2.getTransaction().commit();
+		em2.close();
+		return result;
+	}
+	
+	public Bookstore useSessionFind(String bid) {
+		int result = 0;
+		
+		Session session = sessionFactory.openSession();
+	    session.beginTransaction();
+			
+	    Bookstore bs = session.find(Bookstore.class, bid);
+			
+	  //  Assert.assertEquals(2, persistentUser.getRoles().size());
+			
+	    session.getTransaction().commit();
+	    session.close();
+		
+		
+		return bs;
+	}
+	
 }

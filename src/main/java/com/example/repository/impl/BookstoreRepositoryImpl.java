@@ -1,6 +1,7 @@
 package com.example.repository.impl;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -24,7 +25,17 @@ public abstract   class BookstoreRepositoryImpl  implements BookstoreRepository{
 	public String showmethemoney2() {
 		return "show me the money";
 	}
-	
+	@Override
+	public Bookstore getOne(String bid) {
+		System.out.println("bookstore repository impl - > getOne");
+		Query query =  em.createNativeQuery("select * from bookstore where bid=:bid", Bookstore.class);
+		query.setParameter("bid", bid);
+		List<Bookstore> lists = query.getResultList();
+		if(lists.size()>0)
+			return lists.get(0);
+		else
+			return null;
+	}
 
 /*	
 	public Bookstore findByIndex(String bid) {		

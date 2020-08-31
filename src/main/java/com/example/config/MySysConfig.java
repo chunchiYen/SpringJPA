@@ -53,7 +53,7 @@ public class MySysConfig {
 	 }
 	 
 	@Bean(name = "SessionFactory")	
-	 @Primary
+	@Primary
     public SessionFactory getSessionFactory( DataSource dataSource){
 		LocalSessionFactoryBean sessionBean = new LocalSessionFactoryBean();	
 		sessionBean.setDataSource(dataSource);

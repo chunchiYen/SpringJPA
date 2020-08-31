@@ -31,6 +31,7 @@ public interface BookstoreRepository  extends JpaRepository<Bookstore, String> {
 	@Query(value="select bookname from Bookstore limit 1" ,   nativeQuery = true)
 	public String showmethmoney();
 	
+	public Bookstore getOne(String bid);
 	
 	//public Bookstore findByIndex(String bid) ;
 }

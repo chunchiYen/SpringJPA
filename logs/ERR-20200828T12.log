@@ -1,1 +1,0 @@
-12:19:51.466 ERROR BookstoreService[save2:91] - [http-nio-8082-exec-1]- traceId:[] - Bookstore Insert Fail ,  bid :1012345093 exist

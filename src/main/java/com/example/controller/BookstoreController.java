@@ -148,11 +148,7 @@ public class BookstoreController {
 	public String getDb2() {	
 		return  bookstoreService.getDb2();
 	}
-	@RequestMapping(value ={"/db3"})
-	@ResponseBody
-	public String getDb3() {	
-		return  bookstoreService.getDb3();
-	}
+
 	@RequestMapping(value ={"/update"})
 	@ResponseBody
 	public int toUpdate() {	
@@ -174,4 +170,15 @@ public class BookstoreController {
 		return  bookstoreService.getBookstoreAll();
 	}
 	
+	@RequestMapping(value ={"/getone"} , produces = "application/json")
+	@ResponseBody
+	public Bookstore getOne(@RequestParam String bid) {	
+		return  bookstoreService.getOne(bid);
+	}
+	
+	@RequestMapping(value ={"/sessionfind"} )
+	@ResponseBody
+	public Bookstore sessionFind(@RequestParam String bid) {	
+		return  bookstoreService.sessionFind(bid);
+	}
 }

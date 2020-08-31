@@ -18,6 +18,7 @@ public class Bookstore implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
+	 @GeneratedValue
 	@Column(unique=true, nullable=false, length=10)
 	private String bid;
 
