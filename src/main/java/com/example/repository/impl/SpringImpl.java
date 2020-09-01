@@ -243,10 +243,8 @@ public class SpringImpl implements ISpring ,Serializable{
 	 */
 	public List<BookVo> getAllWithAuthor() {
 		
-		Session session = sessionFactory.openSession();
-		
+		Session session = sessionFactory.openSession();		
 		Bookstore bs = new Bookstore();
-	
 		Transaction tc = session.beginTransaction();
 		Query query = session.createSQLQuery("select b.bid , b.bookname , a.authorname as author , a.address from bookstore b , authors a where a.authorname = b.author").addEntity(BookVo.class);
 		List<BookVo> lists =(List<BookVo> )query.getResultList();
