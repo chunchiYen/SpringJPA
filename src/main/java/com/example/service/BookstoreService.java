@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+
+import com.example.dao.entity.BookVo;
 import com.example.entity.Bookstore;
 import com.example.repository.BookstoreRepository;
 import com.example.repository.IBookstoreDao;
@@ -225,5 +227,10 @@ public class BookstoreService  {
 	
 	public Bookstore sessionFind(String bid) {
 		return springImpl.useSessionFind(bid);
+	
+	}
+	public List<BookVo> getAllWithAuthor() {
+		
+		return springImpl.getAllWithAuthor();
 	}
 }

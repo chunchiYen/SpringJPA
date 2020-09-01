@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/OBAPP?serverTimezone=UTC</property>
+        <property name="hibernate.connection.username">sa</property>
+        <property name="connection.password">sa1217</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="hibernate.connection.characterEncoding">utf-8</property>
+         <!-- 指定連接池最大連接數 -->
+        <property name="connection.pool_size">20</property>
+        <!-- 指定連接池最小連線數 -->
+        <property name="hibernate.c3p0.min_size">1</property>
+        <!-- 指定連接池裡連線timeout -->
+        <property name="hibernate.c3p0.timeout">5000</property>
+        <!-- 指定連接池裡最大緩存多少Statement對象 -->
+        <property name="hibernate.c3p0.max_statements">50</property>
+
+        <!-- 是否顯示sql語句 -->
+        <property name="show_sql">true</property>
+        <!-- 將SQL腳本進行格式化後再輸出 -->
+        <property name="hibernate.format_sql">true</property>
+        <!-- 設置連接數據庫使語言 -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+      <!-- <mapper claseee="" -->
+       
+    </session-factory>
+</hibernate-configuration>

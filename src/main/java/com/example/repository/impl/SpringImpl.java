@@ -1,19 +1,28 @@
 package com.example.repository.impl;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.stereotype.Service;
+
+import com.example.dao.entity.BookVo;
 import com.example.datasource.MyDataSource;
 import com.example.entity.Bookstore;
 import com.example.repository.ISpring;
@@ -30,8 +39,11 @@ public class SpringImpl implements ISpring ,Serializable{
 	
 	@Autowired
 	EntityManagerFactory factory;
+	
 	@Autowired
+	@Qualifier("sessionFactory02")
 	SessionFactory sessionFactory;
+	
 	public String getString() {
 		System.out.println("SpringImpl");
 		return "SpringImpl";
@@ -163,8 +175,10 @@ public class SpringImpl implements ISpring ,Serializable{
 	}
 	public int del2(String sql) {
 		EntityManager em2 = factory.createEntityManager();
-		 em2.getTransaction().begin();
-		 Bookstore bs = em2.find(Bookstore.class, "1012345092");
+		EntityTransaction entityTransaction = em2.getTransaction();
+		entityTransaction.begin();
+		
+		Bookstore bs = em2.find(Bookstore.class, "1012345092");
 		 if(bs == null )
 			 System.out.println("book is Null");
 		 else
@@ -180,7 +194,8 @@ public class SpringImpl implements ISpring ,Serializable{
 		
 		//query.executeUpdate();
 	
-		 em2.getTransaction().commit();
+		// em2.getTransaction().commit();
+		  entityTransaction.commit();
 		 em2.close();
 		 
 		
@@ -197,20 +212,52 @@ public class SpringImpl implements ISpring ,Serializable{
 	}
 	
 	public Bookstore useSessionFind(String bid) {
-		int result = 0;
+
+		Bookstore bookstore = new Bookstore();
+		bookstore.setBid("1012345091");
+		bookstore.setBookname("烤地瓜王國");
+		bookstore.setAuthor("路邊攤");
+		bookstore.setPublisher("社會天下");
+		bookstore.setPrice(new BigDecimal(599));
+		bookstore.setVersion("0.9");
 		
 		Session session = sessionFactory.openSession();
-	    session.beginTransaction();
-			
-	    Bookstore bs = session.find(Bookstore.class, bid);
-			
-	  //  Assert.assertEquals(2, persistentUser.getRoles().size());
-			
-	    session.getTransaction().commit();
-	    session.close();
 		
+		Bookstore bs = new Bookstore();
+	
+		Transaction tc = session.beginTransaction();
+		
+		bs = session.find(Bookstore.class, bid);
+		bs.setBookname("太古達人");
+		bs.setPublisher(String.format("P-%d", System.currentTimeMillis() ));
+		session.update(bs);			
+		tc.commit();
+		session.close();	
 		
 		return bs;
+	
+	}
+	/**
+	 * user createSQLQuery ResultList is present key-value to list, 
+	 * can use .addEntity(entity.class)   ,  get  entity into list
+	 */
+	public List<BookVo> getAllWithAuthor() {
+		
+		Session session = sessionFactory.openSession();
+		
+		Bookstore bs = new Bookstore();
+	
+		Transaction tc = session.beginTransaction();
+		Query query = session.createSQLQuery("select b.bid , b.bookname , a.authorname as author , a.address from bookstore b , authors a where a.authorname = b.author").addEntity(BookVo.class);
+		List<BookVo> lists =(List<BookVo> )query.getResultList();
+		//session.getTransaction().commit();
+		try {
+			tc.commit();
+		}catch(Exception e) {
+			e.printStackTrace();			
+		}
+		session.close();	
+		return lists;
 	}
 	
 }

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.example.constant.CheckCodeConst;
+import com.example.dao.entity.BookVo;
 import com.example.entity.Bookstore;
 import com.example.service.BookstoreService;
 
@@ -180,5 +181,10 @@ public class BookstoreController {
 	@ResponseBody
 	public Bookstore sessionFind(@RequestParam String bid) {	
 		return  bookstoreService.sessionFind(bid);
+	}
+	@RequestMapping(value ={"/withauthor"} )
+	@ResponseBody
+	public List<BookVo> getWithAuthor() {	
+		return  bookstoreService.getAllWithAuthor();
 	}
 }

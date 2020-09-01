@@ -86,7 +86,13 @@
 	   		<groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-logging</artifactId>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+		<!-- https://mvnrepository.com/artifact/com.github.MadaraFsl/HibernateUtil -->
+		<dependency>
+		    <groupId>com.github.MadaraFsl</groupId>
+		    <artifactId>HibernateUtil</artifactId>
+		    <version>1.0</version>
+		</dependency>
+
 
 		
 	</dependencies>

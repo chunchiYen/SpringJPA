@@ -3,6 +3,8 @@ package com.example.repository;
 
 import java.util.List;
 import javax.persistence.EntityManager;
+
+import com.example.dao.entity.BookVo;
 import com.example.entity.Bookstore;
 
 public interface ISpring  {
@@ -18,4 +20,5 @@ public interface ISpring  {
 	int toUpdate(EntityManager em2 , String sql);
 	List<Bookstore>	getBookstoreAll();
 	Bookstore useSessionFind(String bid);
+	List<BookVo> getAllWithAuthor();
 }
